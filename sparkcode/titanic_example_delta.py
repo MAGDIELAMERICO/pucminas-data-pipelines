@@ -28,7 +28,7 @@ new = new.withColumn("Survived", f.lit(1))
 newrows = [
     (892, 1, 1, "Sarah Crepalde", "female", 23.0, 1, 0, None, None, None, None),
     (893, 0, 1, "Ney Crepalde", "male", 35.0, 1, 0, None, None, None, None),
-    (6, 0, 1, "Nego Ney", "male", 35.0, 1, 0, None, None, None, None)
+    (6, 0, 1, "Nego Ney", "male", 30.0, 1, 0, None, None, None, None)
 ]
 newrowsdf = spark.createDataFrame(newrows, schema=schema)
 new = new.union(newrowsdf)
