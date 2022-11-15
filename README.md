@@ -1,4 +1,4 @@
-# PucPinas-data-pipelines
+# PucPimas-data-pipelines
 
 Repositório com códigos para deploy automatizado do Airflow no Kubernetes
 
